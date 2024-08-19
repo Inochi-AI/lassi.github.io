@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inochi AI</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: url('https://via.placeholder.com/1500x400') no-repeat center center/cover;
+            color: white;
+            height: 400px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3.5em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 3px solid #ff6600;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-item {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .video {
+            width: 100%;
+            height: 315px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Inochi AI</h1>
+    </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Project Image 1">
+                    <p>Brief description of Project 1. This section can include key details about the project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Project Image 2">
+                    <p>Brief description of Project 2. This section can include key details about the project.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-item">
+                    <h3>Project 3</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Project Image 3">
+                    <p>Brief description of Project 3. This section can include key details about the project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 4</h3>
+                    <img src="https://via.placeholder.com/400x250" alt="Project Image 4">
+                    <p>Brief description of Project 4. This section can include key details about the project.</p>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <h3>Project Videos</h3>
+                <iframe class="video" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Inochi AI is at the forefront of artificial intelligence and robotics innovation. We are dedicated to developing intelligent systems that seamlessly integrate into everyday life, enhancing human capabilities and improving the quality of life.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you would like to learn more
+            <h2>Contact Us</h2>
+            <p>If you would like to learn more about our work or collaborate with us, feel free to get in touch. We are always open to new ideas and partnerships.</p>
+            <p>Email: <a href="mailto:contact@inochi-ai.com">contact@inochi-ai.com</a></p>
+            <p>Phone: +81-XXX-XXXX-XXXX</p>
+            <p>Address: Inochi AI, Tokyo, Japan</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Inochi AI. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
